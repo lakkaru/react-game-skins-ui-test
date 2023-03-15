@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function OnlineChat() {
+export default function Vepons() {
   return (
     <div>
-      
+      <p>Vepons</p>
     </div>
   )
 }

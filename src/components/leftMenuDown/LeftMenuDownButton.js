@@ -8,7 +8,7 @@ export default function LeftMenuDownButton({ button }) {
           border:'1px solid #393244',
           height: "55px",
           width: "55px",
-          borderRadius: "10px",
+          borderRadius: "15px",
           backgroundColor:'#272042'
         }}
       >

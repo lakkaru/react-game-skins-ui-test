@@ -2,14 +2,15 @@ import React from "react";
 
 export default function LeftMenuUpButton({ button }) {
   return (
-    <div style={{margin:'10px 0px' }}>
+    <div style={{}}>
       <button
         style={{
           backgroundColor: button.bgColor,
           height: "55px",
           width: "55px",
           border:'1px solid #393244',
-          borderRadius: "10px",
+          borderRadius: "15px",
+          fontSize:'8px'
         }}
       >
         <div>
@@ -18,8 +19,7 @@ export default function LeftMenuUpButton({ button }) {
               border: "5px solid red",
               borderRadius: "50%",
               width: "4px",
-              marginLeft: "35px",
-              marginBottom: "3px",
+              marginLeft:'35px',
               display:button.indication_status
             }}
           ></div>

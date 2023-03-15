@@ -1,9 +1,10 @@
 import React from 'react'
+import OnlineChat from './discordComm/OnlineChat'
 
 export default function DiscordComm() {
   return (
     <div style={{}}>
-      <p>online chat</p>
+      <OnlineChat/>
       <p>Commiunity</p>
       <p>Message</p>
     </div>

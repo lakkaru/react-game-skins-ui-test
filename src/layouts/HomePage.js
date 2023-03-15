@@ -1,20 +1,32 @@
 import React from "react";
-import DiscordComm from "./home/DiscordComm";
-import LeftMenu from "./home/LeftMenu";
-import TopMenu from "./home/TopMenu";
+
+import DiscordComm from "./common/DiscordComm";
+import TopMenu from "./common/TopMenu";
+import LeftMenu from "./common/LeftMenu";
+import PageContent from "./home/PageContent";
 
 export default function HomePage() {
   return (
     <div style={{ backgroundColor: "#7b7fbc", padding: "40px" }}>
-      <div style={{ borderRadius: "20px",backgroundColor:'#272042' }}>
+      <div style={{ borderRadius: "20px", backgroundColor: "#272042" }}>
         <TopMenu />
-        <div style={{ display: "flex"}}>
-          <LeftMenu />
-          <div style={{ display: "flex", flex:2, border:'10px solid #201938', borderRadius:'15px' }}>
-            <p>buying selling</p>
-            <p>selected vepons</p>
+        <div style={{ display: "flex" }}>
+          <div>
+            <LeftMenu />
           </div>
-          <DiscordComm />
+          <div
+            style={{
+              backgroundColor: "#201938",
+              borderRadius: "15px 0px 0px",
+              padding: "15px",
+              flex:'2'
+            }}
+          >
+            <PageContent />
+          </div>
+          <div style={{flex:'1'}}>
+            <DiscordComm />
+          </div>
         </div>
       </div>
     </div>

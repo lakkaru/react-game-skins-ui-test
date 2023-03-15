@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Profile() {
   return (
-    <div style={{display:'flex'}}>
+    <div style={{display:'flex', gap:'10px'}}>
       <div style={{textAlign:'right'}}>
         <div style={{display:'flex'}}>
           <p style={{color:'#777'}}>Good earning</p>
