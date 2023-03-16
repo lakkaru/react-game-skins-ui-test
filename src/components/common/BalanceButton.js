@@ -16,7 +16,7 @@ export default function BalanceButton({name, icon, value}) {
       <img
         src={icon}
         alt=""
-        height={"20px"}
+        height={"20px"} style={{borderRadius:'5px'}}
       />
       <div style={{paddingLeft:'10px', textAlign:'left'}}>
         <p style={{ color: "#aaa" }}>{name}</p>
