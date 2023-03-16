@@ -11,9 +11,7 @@ export default function HomePage() {
       <div style={{ borderRadius: "20px", backgroundColor: "#272042" }}>
         <TopMenu />
         <div style={{ display: "flex" }}>
-          <div>
             <LeftMenu />
-          </div>
           <div
             style={{
               backgroundColor: "#201938",

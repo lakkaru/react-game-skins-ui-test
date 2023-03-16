@@ -4,7 +4,7 @@ import LeftMenuUp from './leftMenu/LeftMenuUp'
 
 export default function LeftMenu() {
   return (
-    <div style={{display:'flex', flexDirection:'column',justifyContent:'space-between', margin: "0px 10px 0px 10px",  height:'100vh'}}>
+    <div style={{display:'flex', flexDirection:'column',justifyContent:'space-between', margin: "0px 10px 0px 10px"}}>
       <LeftMenuUp/>
       <LeftMenuDown/>
     </div>
