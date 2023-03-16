@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Discode() {
   return (
-    <div style={{ padding: "10px" }}>
+    <div style={{ padding: "10px", backgroundColor:'#261e3e' }}>
       <div
         style={{
           display: "flex",
