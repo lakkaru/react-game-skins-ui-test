@@ -17,7 +17,8 @@ export default function HomePage() {
               backgroundColor: "#201938",
               borderRadius: "15px 0px 0px",
               padding: "15px",
-              flex:'2'
+              flex:'2', 
+              
             }}
           >
             <PageContent />
