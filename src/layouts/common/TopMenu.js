@@ -4,7 +4,7 @@ import TopMenuRight from './topMenu/TopMenuRight'
 
 export default function TopMenu() {
   return (
-    <div style={{display:'flex',justifyContent:'space-between', alignItems:'center',  minHeight:'40px', padding:'10px', marginRight:'10px'}}>
+    <div style={{display:'flex',justifyContent:'space-between', alignItems:'center',  minHeight:'40px', padding:'10px', flexWrap:'wrap'}}>
       <TopMenuLeft/>
       <TopMenuRight/>
     </div>

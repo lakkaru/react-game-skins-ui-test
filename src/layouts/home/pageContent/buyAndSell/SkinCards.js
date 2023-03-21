@@ -1,5 +1,4 @@
 import React from "react";
-import ActionButtons from "./ActionButtons";
 import SkinCard from "./skinCards/SkinCard";
 
 const cardInfo = [
@@ -51,9 +50,7 @@ export default function SkinCards() {
           </div>
         );
       })}
-      <div style={{position:'relative', bottom:'50px', backgroundColor:'#201938', padding:'15px', width:'100%'}}>
-        <ActionButtons/>
-      </div>
+      
     </div>
   );
 }
