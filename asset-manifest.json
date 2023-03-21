@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-game-skins-ui-test/static/css/main.7df49734.css",
-    "main.js": "/react-game-skins-ui-test/static/js/main.d3f2a7d0.js",
+    "main.css": "/react-game-skins-ui-test/static/css/main.0b77caf5.css",
+    "main.js": "/react-game-skins-ui-test/static/js/main.ea24c64e.js",
     "static/js/787.7f940263.chunk.js": "/react-game-skins-ui-test/static/js/787.7f940263.chunk.js",
     "static/media/graph.png": "/react-game-skins-ui-test/static/media/graph.b0ac6e7579957c70e6da.png",
     "static/media/logo.png": "/react-game-skins-ui-test/static/media/logo.a9781168d5475b9c306a.png",
     "index.html": "/react-game-skins-ui-test/index.html",
-    "main.7df49734.css.map": "/react-game-skins-ui-test/static/css/main.7df49734.css.map",
-    "main.d3f2a7d0.js.map": "/react-game-skins-ui-test/static/js/main.d3f2a7d0.js.map",
+    "main.0b77caf5.css.map": "/react-game-skins-ui-test/static/css/main.0b77caf5.css.map",
+    "main.ea24c64e.js.map": "/react-game-skins-ui-test/static/js/main.ea24c64e.js.map",
     "787.7f940263.chunk.js.map": "/react-game-skins-ui-test/static/js/787.7f940263.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7df49734.css",
-    "static/js/main.d3f2a7d0.js"
+    "static/css/main.0b77caf5.css",
+    "static/js/main.ea24c64e.js"
   ]
 }
