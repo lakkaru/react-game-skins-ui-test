@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SkinCard({category, chipColor, image, name, price, isSet }) {
   return (
-    <div style={{minWidth:'132px', border: "1px solid #333",borderRadius:'10px', backgroundColor:'#251d3b', padding:'10px' }}>
+    <div style={{minWidth:'132px', border: "1px solid #333",borderRadius:'10px', backgroundColor:'#251d3b', padding:'10px', whiteSpace:'normal' }}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <p>{category}</p>
         <div
