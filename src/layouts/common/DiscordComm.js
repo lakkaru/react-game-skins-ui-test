@@ -11,7 +11,7 @@ export default function DiscordComm() {
       <OnlineChat/>
       <Discode/>
       <Messages/>
-      <div style={{margin:'0px 10px'}}>
+      <div style={{margin:'15px 10px'}}>
       <SendMessage/>
       </div>
       </div>
